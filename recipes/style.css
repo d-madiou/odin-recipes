@@ -1,0 +1,54 @@
+h1.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+    background-color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul.fortheindex{
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration-line: none;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    transition: color 0.3s;
+    background-color: orang;
+}
+li#main{
+    list-style: none;
+}
+#footer{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+}
+
+#bri{
+    background-color: orange;
+    color: rgb(14, 14, 14);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.ingredients{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
