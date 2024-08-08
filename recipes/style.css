@@ -24,10 +24,12 @@ li#main{
     list-style: none;
 }
 #footer{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
-    background-color: red;
+    padding: 10px;
+    margin-top: 75%;
+    background-color: rgb(0, 0, 0);
 }
 
 #bri{
@@ -51,4 +53,8 @@ ul.ingredients{
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.homeimage{
+    width: 200px;
+    height: auto;
 }
