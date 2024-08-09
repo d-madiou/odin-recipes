@@ -3,7 +3,9 @@ h1.header {
     color: white;
     margin-bottom: 20px;
     font-size: 50px;
-    background-color: blue;
+    margin: 20px;
+    border-bottom: 10px solid black;
+    background-color: chocolate;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -15,10 +17,13 @@ ul.fortheindex{
 }
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     transition: color 0.3s;
-    background-color: orang;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 7px;
+    border-right: 4px solid rgb(0, 0, 0);
 }
 li#main{
     list-style: none;
@@ -28,33 +33,66 @@ li#main{
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    margin-top: 75%;
+    margin-top: 1%;
     background-color: rgb(0, 0, 0);
 }
 
 #bri{
     background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 10px solid black;
     color: rgb(14, 14, 14);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
-
+.p-descrip{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
 h2{
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
-img{
+ol{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image-inside{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 7px;
+    border: 5px solid ;
 }
 ul.ingredients{
-    text-align: center;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
 }
 .homeimage{
     width: 200px;
     height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+h1.welcome{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(17, 150, 46);
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.lady{
+    float: left;
+    margin-top: -53%;
+    height: 700px;
+    width: auto;
+    margin-left: -20%;
 }
